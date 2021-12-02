@@ -11,6 +11,10 @@ public class Account {
 		this.balance = balance;
 	}
 
+	public Account() {
+		super();
+	}
+
 	public Person getOwner() {
 		return owner;
 	}
